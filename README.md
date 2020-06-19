@@ -1,2 +1,2 @@
-# swp1-04-finaltest
-swp1-04-finaltest
+20185280 강다윤
+Kookmin Univ. Computer Science
