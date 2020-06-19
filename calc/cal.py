@@ -9,8 +9,8 @@ def application(environ, start_response):
     product = 0
     response_body = html
     response_body = html % {
-        'sum' : 0,
-        'product' : 0,
+        'sum' : '***',
+        'product' : '***',
     }
     if '' not in [a, b]:   
         a, b = int(a), int(b)
