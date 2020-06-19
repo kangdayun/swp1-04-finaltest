@@ -12,7 +12,7 @@ def application(environ, start_response):
         'sum' : '***',
         'product' : '***',
     }
-    if '' not in [a, b]:   
+    if a.isdigit() and b.isdigit():   
         a, b = int(a), int(b)
         for i in range(b):
             product += a
